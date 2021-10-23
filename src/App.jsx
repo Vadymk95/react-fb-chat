@@ -11,7 +11,7 @@ const App = () => {
   const [user, loading, error] = useAuthState(auth);
 
   if (loading) {
-    return <Loader />
+    return <Loader />;
   }
 
   return (
